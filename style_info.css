@@ -105,6 +105,7 @@ header{
     color: white;
     font-size: 20px;
     font-family: 'Goldman', cursive;
+    padding: 5px;
 }
 
 #evolve_container1{
@@ -260,7 +261,8 @@ header{
     font-size: 15px;
     color: white;
     font-style: italic;
-    padding-top: 7px;
+    padding: 7px;
+    margin: 7px;
     border-top: 2px solid white;
 }
 
@@ -282,9 +284,9 @@ footer{
 
 footer p{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     font-style: italic;
     margin-left: 10px;
-    margin-top: 6px;
-    margin-bottom: 6px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }

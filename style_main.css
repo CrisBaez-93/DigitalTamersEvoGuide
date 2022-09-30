@@ -39,26 +39,82 @@ header{
 #digi_list{
     background-image: url(./images/background_1.svg);
     background-repeat: repeat-y;
-    background-size: cover;
+    background-size: auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+    padding-bottom: 30px;
+    height: auto;
+}
+
+#buttons_left{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 30px;
+    margin: 50px 50px 0px 0px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+#buttons_left button{
+    background-color: #1E2749;
+    width: 55px;
+    height: 55px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0px;
+    border-radius: 25%;
+    opacity: 1.0;
+    transition: 0.3s;
+}
+
+#button_baby:hover{
+    background-color: #7acabe;
+}
+
+#button_rookie:hover{
+    background-color: #b87333;
+}
+
+#button_champion:hover{
+    background-color: #a5a4a4;
+}
+
+#button_armor:hover{
+    background-color: #5AA9E6;
+}
+
+#button_ultimate:hover{
+    background-color: #d4af37;
+}
+
+#button_mega:hover{
+    background-color: #70d1f4;
+}
+
+#button_super:hover{
+    background-color: #fcfcfc;
+}
+
+#button_xantibody:hover{
+    background-color: #7F5A83;
+}
+
+#main_center{
+    width: 80%;
 }
 
 h1{
     font-family: 'Righteous', cursive;
     color: white;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-bottom: 3px solid white;
+    margin: 50px 40% 5px 40%;
     padding-bottom: 7px;
     letter-spacing: 2px;
-}
-
-#main_center{
-    width: 70%;
+    text-align:center;
+    align-self: center;
+    border-bottom: 5px solid white;
+    border-width: thick;
 }
 
 .main_levels{
@@ -74,7 +130,7 @@ h1{
 h2{
     font-family: 'Righteous', cursive;
     color: white;
-    margin-top: 25px;
+    margin-top: 45px;
     margin-bottom: 7px;
     letter-spacing: 2px;
 }
@@ -97,6 +153,12 @@ h2{
     height: 5px;
 }
 
+#line_armor{
+    background-color: #5AA9E6;
+    width: 100px;
+    height: 5px;
+}
+
 #line_ultimate{
     background-color: #d4af37;
     width: 100px;
@@ -111,6 +173,12 @@ h2{
 
 #line_super{
     background-color: #fcfcfc;
+    width: 100px;
+    height: 5px;
+}
+
+#line_xantibody{
+    background-color: #7F5A83;
     width: 100px;
     height: 5px;
 }
@@ -166,9 +234,9 @@ footer{
 
 footer p{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     font-style: italic;
     margin-left: 10px;
-    margin-top: 6px;
-    margin-bottom: 6px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }

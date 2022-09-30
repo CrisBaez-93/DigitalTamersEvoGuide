@@ -98,6 +98,12 @@ h2{
     height: 5px;
 }
 
+#line_armor{
+    background-color: #5AA9E6;
+    width: 100px;
+    height: 5px;
+}
+
 #line_ultimate{
     background-color: #d4af37;
     width: 100px;
@@ -112,6 +118,12 @@ h2{
 
 #line_super{
     background-color: #fcfcfc;
+    width: 100px;
+    height: 5px;
+}
+
+#line_xantibody{
+    background-color: #7F5A83;
     width: 100px;
     height: 5px;
 }
